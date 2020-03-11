@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeirdClock", "WeirdClock\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportantMail", "ImportantMail\ImportantMail.csproj", "{5F910DE2-CB2D-4995-862C-EC357CC8CDB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SherlockAndMovingTilesFromHackerrank", "SherlockAndMovingTilesFromHackerrank\SherlockAndMovingTilesFromHackerrank.csproj", "{AC6A721D-471B-4C60-BBB1-CF6006590BC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5F910DE2-CB2D-4995-862C-EC357CC8CDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F910DE2-CB2D-4995-862C-EC357CC8CDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F910DE2-CB2D-4995-862C-EC357CC8CDB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6A721D-471B-4C60-BBB1-CF6006590BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6A721D-471B-4C60-BBB1-CF6006590BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6A721D-471B-4C60-BBB1-CF6006590BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6A721D-471B-4C60-BBB1-CF6006590BC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
