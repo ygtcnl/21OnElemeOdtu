@@ -19,25 +19,25 @@ namespace ImportantMail
             bool test = false;
             for(int i=0;i<input.Length;i++)
             {
-                if (input[i] == '[')
+                if (input[i] == '['&&beginOrEnd==true)
                 {
                     beginOrEnd = false;
                     result = result + temp;
                     temp = "";
 
                 }
-                if (input[i] == ']')
+                if (input[i] == ']'&&beginOrEnd==false)
                 {
                     beginOrEnd = true;
                     result = temp + result;
                     temp = "";
 
                 }
-                else if(beginOrEnd==true&&(input[i]!='['))
+                else if(beginOrEnd==true&&!(input[i]=='['||input[i]==']'))
                 {
                     temp = temp + input[i];
                 }
-                else if(beginOrEnd==false && (input[i] != '['))
+                else if(beginOrEnd==false &&! (input[i] == '[' || input[i] == ']'))
                 {
                     temp = temp + input[i];
                 }
@@ -46,6 +46,7 @@ namespace ImportantMail
                 result =result+temp;
             else
                 result = temp+result;
+            Console.WriteLine(result);
         }
     }
 }
